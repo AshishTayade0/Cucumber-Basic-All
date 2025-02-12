@@ -1,4 +1,4 @@
-Feature: This is test login feature
+Feature: This is test1 login feature
   Background:
     Given User open browser
     When User Hit URL

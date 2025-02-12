@@ -19,6 +19,7 @@ public class test_1_stepDef {
     public void user_land_on_homepage_of_application() {
         System.out.println("Background Then");
     }
+
     //Scenario Methods
     @Given("When user is on Home Page")
     public void when_user_is_on_home_page() {
@@ -35,6 +36,10 @@ public class test_1_stepDef {
     @Then("User successfully logged into application")
     public void user_successfully_logged_into_application() {
         System.out.println("successfully logged into application");
+    }
+    @Then("User should not logged into application")
+    public void user_should_not_logged_into_application(){
+        System.out.println("User should not logged into application");
     }
 
 }
